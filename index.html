@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zark Hussain</title>
+    <meta name="description" content="Zark Hussain — incoming CS student at McMaster. Systems programming in C.">
+    <meta name="theme-color" content="#ede8e1">
+    <meta property="og:title" content="Zark Hussain">
+    <meta property="og:description" content="Incoming CS student at McMaster. Systems programming in C.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%2396705a%22 width=%22100%22 height=%22100%22 rx=%2216%22/></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="/" class="nav-name">zark hussain</a>
+        <div class="nav-links">
+            <a href="#projects">projects</a>
+            <a href="#about">about</a>
+            <a href="https://github.com/1s7g" target="_blank" rel="noopener noreferrer">github</a>
+        </div>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <h1>Zark Hussain</h1>
+            <p class="tagline">CS at McMaster, starting fall 2026. I write C and care about what happens under the hood.</p>
+            <div class="hero-links">
+                <a href="https://github.com/1s7g" target="_blank" rel="noopener noreferrer">github</a>
+                <span class="sep">/</span>
+                <a href="https://linkedin.com/in/REPLACE-THIS" target="_blank" rel="noopener noreferrer">linkedin</a>
+                <span class="sep">/</span>
+                <a href="mailto:REPLACE-THIS@example.com">email</a>
+            </div>
+        </header>
+
+        <section id="projects" class="projects">
+            <h2>selected projects</h2>
+
+            <article class="project">
+                <div class="project-header">
+                    <h3>jank-malloc</h3>
+                    <span class="project-meta">C · 2026</span>
+                </div>
+                <p>Custom memory allocator with leak detection, buffer overflow canaries, and allocation stats. Wanted to understand how malloc actually works instead of just using it.</p>
+                <a href="https://github.com/1s7g/jank-malloc" target="_blank" rel="noopener noreferrer" class="project-link">source →</a>
+            </article>
+
+            <article class="project">
+                <div class="project-header">
+                    <h3>pktsniff</h3>
+                    <span class="project-meta">C · 2026</span>
+                </div>
+                <p>Packet sniffer for Linux that captures and parses traffic at layer 2 using raw sockets. No libraries — just the kernel API and a lot of RFC reading.</p>
+                <a href="https://github.com/1s7g/pktsniff" target="_blank" rel="noopener noreferrer" class="project-link">source →</a>
+            </article>
+
+            <article class="project">
+                <div class="project-header">
+                    <h3>dnsquery</h3>
+                    <span class="project-meta">C · 2026</span>
+                </div>
+                <p>DNS resolver built from scratch. Constructs queries as raw bytes, sends them over UDP, parses the responses. No dependencies — everything from the binary protocol up.</p>
+                <a href="https://github.com/1s7g/dnsquery" target="_blank" rel="noopener noreferrer" class="project-link">source →</a>
+            </article>
+        </section>
+
+        <section id="about" class="about">
+            <h2>about</h2>
+            <p>I'm Zark — incoming CS student at McMaster. Most of my time goes into writing C and understanding how things work at a lower level: how memory gets managed, how packets move across a network, how the OS handles things you don't usually think about.</p>
+            <p>I haven't picked a specific corner of CS yet, but I keep ending up in systems programming. We'll see where that goes.</p>
+        </section>
+    </main>
+
+    <footer>
+        <span>© 2026 Zark Hussain</span>
+        <div class="footer-links">
+            <a href="https://github.com/1s7g" target="_blank" rel="noopener noreferrer">github</a>
+            <a href="https://linkedin.com/in/REPLACE-THIS" target="_blank" rel="noopener noreferrer">linkedin</a>
+            <a href="mailto:REPLACE-THIS@example.com">email</a>
+        </div>
+    </footer>
+
+</body>
+</html>
